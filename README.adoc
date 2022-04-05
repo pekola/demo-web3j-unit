@@ -1,4 +1,9 @@
-Version: 0.0.1
+-- Version: 0.0.1 --
 
 
+Für die Installation wird der Solidity Compiler benötigt. Aufgrund von Proxy-Beschränkungen wird dieser nicht automatisch installiert und muss manuell installiert werden.
+
+Unter folgender URL den entsprechenden Compiler herunterladen
 https://raw.githubusercontent.com/web3j/web3j-sokt/master/src/main/resources/releases.json
+
+Außerdem muss der JVM die Option -Duser.home=<Installationspfad .web3j> mitgegebenen werden.
