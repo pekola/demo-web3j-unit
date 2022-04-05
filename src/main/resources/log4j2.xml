@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+  <!-- Properties -->
+  <Properties>
+    <Property name="filename">target/test.log</Property>
+  </Properties>
+
+  <!-- verschiedene Appender -->
+  <Appenders>
+    <Console name="console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+
+    <File name="log" fileName="${filename}" append="false">
+      <PatternLayout pattern="%d{HH:mm:ss} %-5level %class{36} %L %M - %msg%xEx%n"/>
+    </File>
+
+  </Appenders>
+
+  <Loggers>
+
+    <Root level="INFO">
+      <AppenderRef ref="console"/>
+    </Root>
+
+    <!-- Nur die Klasse Bar loggen -->
+    <!-- TRACE -> -->
+    <Logger name="org.web3j.protocol" level="INFO">
+      <AppenderRef ref="log"/>
+    </Logger>
+
+  </Loggers>
+</Configuration>

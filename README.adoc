@@ -1,0 +1,4 @@
+Version: 0.0.1
+
+
+https://raw.githubusercontent.com/web3j/web3j-sokt/master/src/main/resources/releases.json
