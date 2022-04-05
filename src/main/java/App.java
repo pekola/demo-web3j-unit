@@ -33,9 +33,7 @@ public class App {
 
     @Override
     public String toString() {
-      return "Blockchain{" +
-          "blocks=" + blocks +
-          '}';
+      return "Blockchain{" + "blocks=" + blocks + '}';
     }
   }
 
@@ -57,11 +55,8 @@ public class App {
 
     @Override
     public String toString() {
-      return "Block{" +
-          "data='" + data + '\'' +
-          ", previousHash='" + previousHash + '\'' +
-          ", nonce=" + nonce +
-          '}';
+      return "Block{" + "data='" + data + '\'' + ", previousHash='" + previousHash + '\''
+          + ", nonce=" + nonce + '}';
     }
 
     public void mine(String difficulty) {

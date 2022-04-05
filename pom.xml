@@ -3,10 +3,10 @@
   xmlns="http://maven.apache.org/POM/4.0.0"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-  <artifactId>blockchain-app</artifactId>
+  <artifactId>demo-web3j</artifactId>
   <groupId>mynex.de</groupId>
   <modelVersion>4.0.0</modelVersion>
-  <name>blockchain-app</name>
+  <name>demo-web3j</name>
 
   <properties>
     <build.encoding>UTF-8</build.encoding>
