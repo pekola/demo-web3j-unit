@@ -5,7 +5,7 @@ contract Greeter {
     string greeting;
 
     constructor() {
-        greeting = "Hello World";
+        greeting = "Hello SDC";
     }
 
     function greet() public view returns (string memory){
